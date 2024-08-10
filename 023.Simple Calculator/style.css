@@ -18,6 +18,7 @@ input {
 }
 
 .inputs input {
+    
     border: none;
     border-radius: 5px;
     padding: 1rem 10rem;
