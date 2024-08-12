@@ -11,7 +11,7 @@ function blurring() {
         clearInterval(int);
     }
     loadText.innerHTML = `${load}%`;
-    loadText.computedStyleMap.opacity = scale(load, 0, 100, 1,0);
+    loadText.style.opacity = scale(load, 0, 100, 1,0);
     background.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`;
 }
 
