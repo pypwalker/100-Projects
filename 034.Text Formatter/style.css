@@ -41,6 +41,11 @@ button {
     color: #fff;
     border: none;
     margin: 10px;
+    pointer-events: none;
+}
+
+.btn.active {
+    background: crimson;
 }
 
 p {
