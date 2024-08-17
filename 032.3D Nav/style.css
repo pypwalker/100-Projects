@@ -135,6 +135,7 @@ body {
 /* Javascript Animation and Rotation  */
 
 .page-container.active {
+    cursor: pointer;
     left: -10px;
     transform: rotateY(45deg) scale(0.5);
 }

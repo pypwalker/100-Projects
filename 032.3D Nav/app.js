@@ -4,18 +4,37 @@ const toggleBtn = document.querySelector('.toggle-btn');
 const ul = document.querySelector('.nav-list');
 const overlay = document.querySelector('.overlay');
 const links = document.querySelectorAll('.link');
+const pageContainer = document.querySelector('.page-container');
+
+// function pc() {
+//     if (ul.className.includes('show')) {
+//         console.log('ok');
+//     } else {
+//         console.log('fail');
+//     }
+// }
 
 
 
+pageContainer.addEventListener('click', function() {
 
+    if (ul.className.includes('show')) {
+        toggleBtn.classList.toggle('active');
+        container.classList.toggle('active');
+        ul.classList.toggle('show');
+    } 
+    
+    
+});
 
 let pageIndex = 0;
 
-toggleBtn.addEventListener('click', () => {
+toggleBtn.onclick = function() {
+    
     toggleBtn.classList.toggle('active');
     container.classList.toggle('active');
     ul.classList.toggle('show');
-});
+};
 
 links.forEach((item, i) => {
     item.addEventListener('click', () => {
