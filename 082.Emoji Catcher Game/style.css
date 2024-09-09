@@ -1,0 +1,66 @@
+body {
+    background: rgb(10, 10, 10);
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.scores-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-score, .time {
+    margin-right: 20px;
+    margin: 20px;
+    padding: 20px;
+
+    text-align: center;
+    background: #ccc;
+    color: #000;
+}
+
+/* .time {
+    margin-right: 20px;
+    margin: 20px;
+    padding: 20px;
+
+    text-align: center;
+    background: #ccc;
+    color: #000;
+} */
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background: rgb(61, 61, 61);
+}
+
+
+/* JavaScript */
+
+.emoji {
+    background-image: url("https://cdn.shopify.com/s/files/1/1061/1924/files/Hugging_Face_Emoji_2028ce8b-c213-4d45-94aa-21e1a0842b4d_large.png?15202324258887420558");
+    background-position: center;
+    background-size: cover;
+}
