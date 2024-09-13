@@ -1,0 +1,28 @@
+* {
+    margin-left: 2%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    display: inline;
+    color: #000;
+    border-bottom: 5px dashed red;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+}
